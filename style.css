@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    color: #323232;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 1.7rem;
+    border-radius: 1.6rem;
+    cursor: pointer;
+}
+
+p{
+    max-width: 600px;
+    line-height: 1.5;
+    padding: 0.8rem;
+    font-size: 18px;
+}
+
+.container a{
+    display: inline-block;
+    background-color: #323232;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.container a:hover{
+    background-color: #222;
+}
+
+.blank, .blank-2{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #323232;
+}
+
+.second{
+    background-image: url(assets/bg-2.jpg);
+    background-attachment: fixed;
+    height: 950px;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.7rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .info img{
+    width: 90%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 0.7rem;
+}
+
+.card .info h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.card a{
+    margin-bottom: 1.5rem;
+    width: 70%;
+}
+
+.blank-2{
+    min-height: 30vh;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .column{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer .column h3{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.footer .column ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer .column ul li{
+    margin: 20px 0;
+}
+
+.footer .column ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer .column ul li a:hover{
+    color: #ccc;
+}
